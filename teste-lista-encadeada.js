@@ -15,3 +15,11 @@ console.log(lista.toString(), lista.size())
 
 lista.push('Azul')
 console.log(lista.toString(), lista.size())
+
+// Remoção na última posição
+let removido = lista.pop()
+console.log(lista.toString(), lista.size(), { removido })
+
+// Remoção do primeiro elemento
+removido = lista.removeAt(0)
+console.log(lista.toString(), lista.size(), { removido })
